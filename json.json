@@ -1,0 +1,54 @@
+{
+    "restaurante": "Master JAP",
+    "menu": {
+      "entradas": [
+        {
+          "nombre": "Ensalada Caprese",
+          "descripcion": "Ensalada de tomate, mozzarella y albahaca con vinagreta balsámica.",
+          "imagen": "https://recetinas.com/wp-content/uploads/2020/03/ensalada-caprese-1.jpg"
+        },
+        {
+          "nombre": "Croquetas de Pollo",
+          "descripcion": "Increible empanado de pollo y papas de la casa.",
+          "imagen": "https://www.196flavors.com/wp-content/uploads/2021/10/croquetas-de-pollo-2fp.jpg"
+        }
+      ],
+      "platos_principales": [
+        {
+          "nombre": "Entraña Fina con Pure",
+          "descripcion": "Trozo de carne, pure de papas y finas hierbas.",
+          "imagen": "https://jovifel.com.ar/wp-content/uploads/2022/09/01.jpg"
+        },
+        {
+          "nombre": "Salmón a la Parrilla",
+          "descripcion": "Salmón fresco a la parrilla con salsa y arroz.",
+          "imagen": "https://es.cravingsjournal.com/wp-content/uploads/2022/09/pescado-a-la-parrilla-5-500x500.jpg"
+        }
+      ],
+      "postres": [
+        {
+          "nombre": "Tiramisú",
+          "descripcion": "Pastel italiano hecho con capas de bizcocho, café y crema de mascarpone.",
+          "imagen": "https://www.cocinavital.mx/wp-content/uploads/2019/05/tiramisu-clasico-pasos.jpg"
+        },
+        {
+          "nombre": "Volcan de Chocolate",
+          "descripcion": "Pastel de chocolate caliente con centro líquido y helado de vainilla.",
+          "imagen": "https://okdiario.com/img/2017/02/07/receta-coulant-chocolate-655x368.jpg"
+        }
+      ],
+      "bebidas": [
+        {
+          "nombre": "Mojito Clásico",
+          "descripcion": "Ron, menta fresca, lima y soda con hielo triturado.",
+          "imagen": "https://cocteles.club/wp-content/uploads/Como-hacer-un-c%C3%B3ctel-mojito-clasico-cubano.jpg"
+        },
+        {
+          "nombre": "Sangría",
+          "descripcion": "Vino tinto con frutas frescas y especias, servido frío.",
+          "imagen": "https://images.hola.com/imagenes/cocina/recetas/20200514167988/receta-sangria-clasica/0-823-899/sangria-t.jpg"
+        }
+      ]
+    }
+  }
+  
