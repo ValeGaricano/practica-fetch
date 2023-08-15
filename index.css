@@ -1,30 +1,75 @@
 body {
-    background-color: lemonchiffon;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0HCA0HBwcHBw0HBwcHDQ8IDQcNFREWFhURExMYHSggGBolGxUTITEhMSkrLi46Fx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrKzcrKysrKysrNysrLTctKy0tLSsrKystKzctLTctKysrNysrKystKystKysrKystK//AABEIAKgBLAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAADBAABAgUG/8QAGxABAQEBAQEBAQAAAAAAAAAAAAIBAxIRBBP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBgT/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECEjFBIf/aAAwDAQACEQMRAD8A8jyw/wDnwnxx0Pz46OuWh3hjo8MJcMdDhjOtYb44d5YW44d5SzrSCxg8yzzwaZJSslry3kteSAGyxUmdlipAKVIVQcqQqgwRuC/SHRuC/SDKxzOsFOsOp0gp15qlRY5XWCnWHV68ynXmuVFjldOZa4dPpzLdOa5Wdjn1LGybvmFsmUpfZV5G2VeQvyC+J8E8p8B6H8T4J5T4Bofxfxr4nwDWPitxvcZ3Aeh6xQlYHQXA9V8a1kmkdvjjo8JJ8JdDhJdPLyd4S6HCSfDHQ4YzrWG+OHeWFuOHeWIrSDRg8SxzweMI0yWvLWY18LQHssbI/wAVuDQWqAqg3ssVABOoAuD1QFcGHN6cyvTm6nSC3TmcpWOT15lOvN1+nMr05qlRY5HTmW6c3V6ci/TkuVFjlXyAvk6l8gL5qlTY5tc2Ng/XIOuZ6jxJeVeTW82d5no/S3lPI+82dgy2g/E+C7LO4D0LcZ3BdxjcJUoVYFQ9YFWBrzQtYb1Xwmkei4Y6HDCfHHQ4YmsOTvDHQ4YS4Y6HHGdaQ3xw7ywrxw5yxCzHPB5wLng84VNrMb+KzGkWmr4rcb+K+DSD3GdkXcVuHKZepCuDW4HUq0idwX6QfuQLgw53TmV6c3TuC/TmelY5fTmW6cnVvmXvmqVNjlXzAvk6l8wL5nqccyuYVc3RrmFXNWpwhXMPeZ6uYdQelhLYZ2DewxsHpYU2A6g3UB1JypsKbjFYYuQaxSfQNYFWD1gVYTXmgUy3uM/A2j1HHD/DCXHD/FnWUPcMP8SPA/xRWkO8TnInyOc0LM8x5A5jymgTGsZxrEUNfE3ExCNnVNarTJjcZ3BGdw5TAqQrkzuB1iyJ3AFwduQqkwQvmXvm6FwDcAnOvmBfN0bgC4VqbHOvmDXN0LgG4PSxz6gKoPXANQpJOoDqTdSFUnpYUqQqk3Ug3JpKXIF4bvAOmKibCtYFWD1gVYY5pesZ+C1jHwNpXp+J/iR4nuLOph/ie4kOJ7lrOtIe5G+ekuWm+epWbjR50rGjzpAfGsDzWs1Fht5q/rP1PpEtSKAWrUVumbOs7jWq1UIKsCqR9DrDBepBuTVYFWGClyBcHLkG5BErgG5OXIFyoqTuALk7cgXJxJOpBqTd4BeKIreA3hq8AvDiaVvALw1eAXioik7wGsNdMArFJ9UDcY+C7ivgaSvQ8jvEhy07x1nTjocdO8tIcdOctRVw/wAtNc9I8tNc9QuHI0eKKRQ00DMzreaXmm8osA3pfoL0v0WAT0r6H6T0MAn1PofpPQwN/VK9K9HgTWdXus6AxQdYJodGAqwG8HoKgC94XvDVl7MqWvALwzYFmkteAXhiwLUkveAXhiwLUml7wG8MWDeGmlrwveG7wG5XEWFdxXwXcZ+GNdjlpzlpDlp3lrKtYf5ac5aQ5ac5airh7npnnRLnpiKTVQ5FDTRSKGmiUZymsovlN5RAfKX6A9J6AH9J6A9K9AGPSegPSegDHpPQHtfsAX0rdD9K2gG91jdVtMbQCVoVa1VBVRhigL0S9AvTKh2XsW9AvTSDYFi3oF6pIVg2LWg1qk0OgqFoPTIGsCrB6xjcNNL7LHgxsq8q1ODcqOcqc7lRzlSKuV0eVG+VOdys3ztNaR0OdGIohzsxFoVD0ULNkpsWbLFabymsotltZZAx7T2B7T2DH9J6L+k9AGPa/Zf2nsAz7X7Le1+wDHpW0D7V7AG22doLbY2wBKoOqYqwqsy1q6BulVYN2adS6L3S7svdnIWpdAXSXYN2pKVQdaqqD2jJe6zqt1X0yTWdxf1DJn4r42gBHlRzlbmxRrlarEyunzszztzedmefRnYuV0udmI6ObHQxHROL10JsWbIR0FnoWHp3LazoTzo3lkZr+i/ZX2v2Bpn2nsv7T2MGmcteWW9NZQw9MZa/Zf0v0WDTHtXsD0raGDRttjbC22ds8GiVYVWxVhXYJu7Au2L6AXasTrd2Xu2bsC7OQrWrsKrDuwqtWJtE22dsHbZ9nidH9J6A9L9Hg0b6v6Fmt5pATNXjGa19BuPOjRRWdFnVJ6h7nZmOjmxZiOhWCV0Y6Dx0c6Og0dE4uV0Z6CT0IT0FnonFaezo3nQlPRvLLDO50XnQplt5YBrLXllstrKLD0zlNZRbKbyhg0fKX6Byl+gYvpW0H6Z2gBNpirY2gqoYWt1YN2zVA3Zku7Au1XZe7VIm1q7L30Vdl7tUiLW76A10DqmNpWJ3RNtPQX1X0ywb01lgZrWaAZmm80tNCzRHKPmt5oOa3mpxTizok6iKXYJNCTSIbOwaOg09EQrClFnoLNoiVyizYk2iEYk23NrRKm8prKRAbeU3lKQg3mr9IgCbTO6iAMVQVUiABXQF0tFJpe6L9LRFRNLdLAqkRSPoe6zuqQKkT6n1EBrzWs1EBVvNEnVIaKNOt5qkJT//2Q==);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h3{
-    display: block;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgba(255, 246, 116, 0.582);
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  }
+h1, h3 {
+  text-align: center;
+  background-color: rgba(255, 246, 116, 0.582);
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px auto;
+  width: 80%;
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 3em;
+}
+.mb-1{
+  text-align: center;
+}
 
-  h1{
-    font-size: 3em;
-    border-bottom: 6px solid rgb(255, 208, 0);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 250px;
-    margin-left: 250px;
-  }
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  h3 {
-    border: 2px solid rgb(255, 208, 0);
-    border-radius: 12px;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 500px;
-    margin-left: 500px;
-  }
+
+.product {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  max-width: 300px; 
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px; 
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product h4 {
+  margin: 10px 0;
+  font-size: 1.25em; 
+}
+
+.product p {
+  color: #555;
+  text-align: center;
+  font-size: 1.1em; 
+}
